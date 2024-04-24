@@ -10,21 +10,26 @@
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution{ 
+      font-size: 0.7vw; 
+      text-align: center;
+      color: hsl(228, 45%, 44%); 
+    }
     body{
       background-color: #d6e2f0;
     }
     #QR-section{
+      
+      text-align: center;
+      position: relative;
+      top: 50%;
+    }
+    #card{
       margin: auto;
-      margin-top: 2.5%;
       width: 20%;
       background-color: white;
       border: 10px solid white;
       border-radius: 10px;
-      text-align: center;
-      position: relative;
-      top: 50%;
     }
     .code{
       width: 100%;
@@ -33,7 +38,7 @@
     .bold{
       font-family: "Outfit", sans-serif;
       color:#1f3251;
-      font-size: 1.4em;
+      font-size: 1.7vw;
       font-weight: 700;
       font-style: normal;
 
@@ -41,7 +46,7 @@
     .regular{
       font-family: "Outfit", sans-serif;
       color:#7b879d;
-      font-size: 1em;
+      font-size: 1.2vw;
       font-weight: 400;
       font-style: normal;
     }
@@ -51,14 +56,20 @@
   <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
 </head>
 <body>
-<div id="QR-section">
+  <div id="card">
+  <main>
+  <div id="QR-section">
   <img class="code" src="./images/image-qr-code.png" alt="image of a QR code"/>
   <p class="bold">Improve your front-end skills by building projects</p>
   <p class="regular">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
   </div>
+</main>
+<footer>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Nycs Agnes</a>.
+    Coded by <a href="#">Your Name Here</a>.
   </div>
+</footer>
+</div>
 </body>
 </html>
