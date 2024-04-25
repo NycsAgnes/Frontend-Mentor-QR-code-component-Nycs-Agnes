@@ -28,11 +28,8 @@
       min-width: 250px;
       min-height: 30%;
       background-color: white;
-      border: 15px solid white;
+      border: 10px solid white;
       border-radius: 10px;
-      position: relative;
-      vertical-align: middle;
-      align-items: center;
       position: absolute ;
       left: 50%;
       top: 45%;
@@ -60,16 +57,18 @@
     }
     @media screen and (max-width: 500px){
       #card{
-        width: 90% !important;
+        width:90% !important;
         margin: auto;
-        vertical-align: middle;
-        align-items: center;
+        position: absolute ;
+        left: 50%;
+        top: 45%;
+        transform: translate(-50%, -50%);
       }
       .bold{
-        font-size: 1.5rem;
+        font-size: 1.4rem;
       }
       .regular{
-        font-size: 1.1rem;
+        font-size: 1rem;
       }
       .attribution{
         font-size: 0.7rem;
@@ -92,7 +91,7 @@
 <footer>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Agnes Nycs 1.6</a>.
+    Coded by <a href="#">Agnes Nycs 1</a>.
   </div>
 </footer>
 </div>
