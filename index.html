@@ -17,16 +17,13 @@
     }
     body{
       background-color: #d6e2f0;
-      position: absolute;
-      left: 50%;
-      top: 45%;
-      transform: translate( -50%, -50%)
     }
     #QR-section{
       text-align: center;
     }
     #card{
       margin: auto;
+      margin-top: 3%;
       width: 20%;
       min-width: 250px;
       min-height: 30%;
@@ -36,6 +33,10 @@
       position: relative;
       vertical-align: middle;
       align-items: center;
+      position: absolute ;
+      left: 50%;
+      top: 45%;
+      transform: translate(-50%, -50%);
       
     }
     .code{
@@ -59,16 +60,16 @@
     }
     @media screen and (max-width: 500px){
       #card{
-        width: 95%;
+        width:90% !important;
         margin: auto;
         vertical-align: middle;
         align-items: center;
       }
       .bold{
-        font-size: 1.5rem;
+        font-size: 1.4rem;
       }
       .regular{
-        font-size: 1.1rem;
+        font-size: 1rem;
       }
       .attribution{
         font-size: 0.7rem;
